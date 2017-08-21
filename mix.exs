@@ -22,6 +22,13 @@ defmodule Umedia.Umbrella.Mixfile do
   # Dependencies listed here are available only for this project
   # and cannot be accessed from applications inside the apps folder
   defp deps do
-    []
+    [
+      {:mix_test_watch, "~> 0.4", only: [:dev, :test], runtime: false},
+      {:credo, "~> 0.7", only: [:dev, :test], runtime: false},
+      {:dialyxir, "~> 0.5", runtime: false},
+      {:ex_doc, "~> 0.15"},
+      {:ex_spec, "~> 2.0"},
+      {:timex, "~> 3.1"}
+    ]
   end
 end
