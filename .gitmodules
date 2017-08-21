@@ -1,0 +1,6 @@
+[submodule "apps/umedia_web"]
+	path = apps/umedia_web
+	url = https://github.com/untra/umedia_web.git
+[submodule "apps/umedia"]
+	path = apps/umedia
+	url = https://github.com/untra/umedia.git
